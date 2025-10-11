@@ -55,7 +55,7 @@ const Projects = () => {
       id: 5,
       title: 'Portfolio Testing System',
       description: 'Automated testing framework for a sample portfolio using Flask, Selenium, and pytest with an automated CSV-based bug tracker.',
-  image: '/images/portfolio-testing-system-screenshot.svg',
+      image: '/images/portfolio-testing-system-screenshot.svg',
       category: 'testing',
       tags: ['Flask', 'Selenium', 'pytest', 'Automation', 'Bug Tracker'],
       github: 'https://github.com/ad-ityaa/port-test',
