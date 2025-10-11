@@ -50,6 +50,17 @@ const Projects = () => {
       github: 'https://github.com/ad-ityaa/Frontline-Assault',
       demo: 'https://drive.google.com/file/d/16Ot9W2IWj0vaOnhMgIsfT0KcQdOfaHwq/view?usp=sharing',
       date: '2025'
+    }                                           
+    ,{
+      id: 5,
+      title: 'Portfolio Testing System',
+      description: 'Automated testing framework for a sample portfolio using Flask, Selenium, and pytest with an automated CSV-based bug tracker.',
+  image: '/images/portfolio-testing-system-screenshot.svg',
+      category: 'testing',
+      tags: ['Flask', 'Selenium', 'pytest', 'Automation', 'Bug Tracker'],
+      github: 'https://github.com/ad-ityaa/port-test',
+      live: null,
+      date: '2025'
     }
   ];
 
@@ -58,7 +69,7 @@ const Projects = () => {
     { key: 'fullstack', label: 'Full Stack' },
     { key: 'frontend', label: 'Frontend' },
     { key: 'datascience', label: 'Data Science' },
-    { key: 'games', label: 'Games' }
+    { key: 'games', label: 'Games' }                                                                                                                                                                                       
   ];
 
   const filteredProjects = filter === 'all' 
