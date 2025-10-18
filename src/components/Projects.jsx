@@ -62,6 +62,17 @@ const Projects = () => {
       live: null,
       date: '2025'
     }
+    ,{
+      id: 6,
+      title: 'PromptLens',
+      description: 'AI Image Quality Evaluator — evaluates AI-generated images using CLIP, SSIM and Groq Vision to produce visual reports and detailed JSON/text reports.',
+      image: '/images/promptlens.svg',
+      category: 'datascience',
+      tags: ['Python', 'CLIP', 'SSIM', 'Groq', 'Image Analysis'],
+      github: 'https://github.com/ad-ityaa/PromptLens',
+      live: null,
+      date: '2025'
+    }
   ];
 
   const categories = [
